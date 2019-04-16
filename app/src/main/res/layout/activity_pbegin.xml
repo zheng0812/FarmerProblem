@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <!--<Button-->
+        <!--android:id="@+id/B5"-->
+        <!--android:layout_width="59dp"-->
+        <!--android:layout_height="31dp"-->
+        <!--android:layout_marginEnd="68dp"-->
+        <!--android:layout_marginBottom="108dp"-->
+        <!--android:onClick="try5"-->
+        <!--android:text="Try5"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/B4"-->
+        <!--android:layout_width="59dp"-->
+        <!--android:layout_height="31dp"-->
+        <!--android:layout_marginEnd="80dp"-->
+        <!--android:layout_marginBottom="140dp"-->
+        <!--android:onClick="try4"-->
+        <!--android:text="Try4"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/B3"-->
+        <!--android:layout_width="59dp"-->
+        <!--android:layout_height="31dp"-->
+        <!--android:layout_marginEnd="104dp"-->
+        <!--android:layout_marginBottom="168dp"-->
+        <!--android:onClick="try3"-->
+        <!--android:text="Try3"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/B2"-->
+        <!--android:layout_width="59dp"-->
+        <!--android:layout_height="31dp"-->
+        <!--android:layout_marginEnd="120dp"-->
+        <!--android:layout_marginBottom="200dp"-->
+        <!--android:onClick="try2"-->
+        <!--android:text="Try2"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/B1"-->
+        <!--android:layout_width="59dp"-->
+        <!--android:layout_height="31dp"-->
+        <!--android:layout_marginEnd="136dp"-->
+        <!--android:layout_marginBottom="232dp"-->
+        <!--android:onClick="try1"-->
+        <!--android:text="Try1"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <TextView
+        android:id="@+id/messageClick"
+        android:layout_width="324dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/string_clicktile"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/puzzleNow"
+        android:layout_width="105dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageClick" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="next"
+        android:text="@string/button_next"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/solvebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="solve"
+        android:text="@string/button_solve"
+        app:layout_constraintBottom_toTopOf="@+id/next"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="reset"
+        android:text="@string/button_reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.example.zheng.android.GestureDetectGridView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/grid"
+        android:layout_width="156dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageClick"
+        tools:context="com.example.zakariadaud.problemsolverandroid.PBeginActivity" />
+
+    <TextView
+        android:id="@+id/sol"
+        android:layout_width="164dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--<Button-->
+        <!--android:id="@+id/B7"-->
+        <!--android:layout_width="59dp"-->
+        <!--android:layout_height="31dp"-->
+        <!--android:layout_marginEnd="136dp"-->
+        <!--android:layout_marginBottom="36dp"-->
+        <!--android:onClick="try7"-->
+        <!--android:text="Try7"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/B8"-->
+        <!--android:layout_width="59dp"-->
+        <!--android:layout_height="31dp"-->
+        <!--android:layout_marginEnd="60dp"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:onClick="try8"-->
+        <!--android:text="Try8"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/B6"-->
+        <!--android:layout_width="62dp"-->
+        <!--android:layout_height="32dp"-->
+        <!--android:layout_marginEnd="132dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:onClick="try6"-->
+        <!--android:text="Try6"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/B7"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/Space"-->
+        <!--android:layout_width="68dp"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:layout_marginEnd="24dp"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:text="Space"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+
+    <!--<android.support.v7.widget.GridLayout-->
+        <!--android:id="@+id/trialGrid"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="97dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/puzzleNow"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/puzzleNow">-->
+
+    <!--</android.support.v7.widget.GridLayout>-->
+</android.support.constraint.ConstraintLayout>

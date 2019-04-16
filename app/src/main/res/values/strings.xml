@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="button_farmer">Farmer</string>
+    <string name="button_puzzle">Puzzle</string>
+    <string name="text_welcome">Welcome to Problem Solver</string>
+    <string name="button_begin">BEGIN</string>
+    <string name="button_self">SELF</string>
+    <string name="button_WOLF">WOLF</string>
+    <string name="button_goat">GOAT</string>
+    <string name="button_cabbage">CABBAGE</string>
+    <string name="button_solve">SOLVE</string>
+    <string name="button_next">NEXT</string>
+    <string name="button_reset">RESET</string>
+    <string name="string_welcome">Welcome to the Farmer, Wolf, Goat, and Cabbage Problem</string>
+    <string name="string_farmertakes">Farmer Takes:</string>
+    <string name="string_puzzlewelcome">Welcome to the 8-Puzzle Problem</string>
+    <string name="string_clicktile">Click and drag the tiles to move it into space</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="string_w">choose one of the problems below</string>
+</resources>
